@@ -1,0 +1,127 @@
+@media only screen and (max-width:769px) {
+    .logo {
+        width: 100px;
+    }
+
+    nav button {
+        padding: 5px 10px;
+    }
+
+    nav .lan-btn {
+        padding: 5px 8px;
+    }
+
+    .header-con {
+        margin-top: 40px;
+    }
+
+    .header-con h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+        max-width: 700px;
+    }
+
+    .header-con h3 {
+        margin-bottom: 15px;
+    }
+
+    .email-signup {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .email-signup input {
+        margin-left: 0;
+        margin-bottom: 5px;
+        flex: 0;
+    }
+
+    /* Main */
+    .main-con h2 {
+        font-size: 30px;
+    }
+
+    .box-con {
+        flex-direction: column;
+    }
+
+
+    @media only screen and (max-width:770px) {
+        .menu-container {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width:380px) {
+        .logo {
+            font-size: 25px;
+        }
+    }
+
+    @media only screen and (max-width:426px) {
+        .logo {
+            font-size: 20px;
+        }
+
+        .profile-picture {
+            display: none;
+        }
+
+        .toggle {
+            width: 40px;
+        }
+
+        .profile-text-container {
+            margin: 0 8px;
+        }
+
+        .toggle-ball.active {
+            transform: translateX(-17px);
+        }
+
+        .left-menu-icon {
+            font-size: 20px;
+            margin-bottom: 35px;
+        }
+
+        .featured-content {
+            height: 65vh;
+            padding: 20px 20px;
+        }
+
+        .featured-title {
+            width: 150px;
+        }
+
+        .featured-desc {
+            width: 250px;
+            margin: 8px 0;
+        }
+
+        .movie-list-title {
+            font-size: 1.3rem;
+        }
+
+        .movie-list-container {
+            padding: 0 5px;
+        }
+
+        .movie-list-item-img {
+            width: 260px;
+        }
+    }
+
+    /* Faq */
+    .accordian li label {
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+    .accordian li label::after {
+        content: '+';
+        font-size: 34px;
+        position: absolute;
+        right: 15px;
+    }
+}
